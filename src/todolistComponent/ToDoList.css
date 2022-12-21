@@ -1,0 +1,60 @@
+.todolist{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    margin:0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:space-between
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.information{
+    padding: 1rem 1rem 1rem 3.4rem;
+}
+.avatar {
+    width:70px;
+    height: 70px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.avatar img{
+    width:100%;
+    object-fit: cover;
+}
+.seperate{
+    border:solid 1px #bfbfbf;
+    height: 60px;
+}
+.Tasks{
+    padding: 1rem 1rem 1rem 3.4rem;
+}
+.list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+:where(.css-dev-only-do-not-override-9ntgx0).ant-switch.ant-switch-checked{
+    background-color:#242133;
+}
+.modal-heading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 1rem;
+}
+.submit{
+    margin: 1rem 0;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+}
